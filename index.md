@@ -85,6 +85,15 @@ Explored stateful, multi-actor agentic workflows using LangGraph.
 
 ---
 
+### 📚 Trial Reads
+**Streamlit app using LangChain and OpenAI to generate book chapter summaries**
+
+Helps you decide whether to purchase a book by generating concise summaries of the first three chapters (~250 words each). Features include book recommendations for similar titles and a library manager chatbot to query your personal reading history using natural language.
+
+[View on GitHub](https://github.com/anagharamadas/trial-reads)
+
+---
+
 ## 🎓 Education
 
 **MSc Artificial Intelligence and Machine Learning**  

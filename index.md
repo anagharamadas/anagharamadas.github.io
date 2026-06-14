@@ -28,33 +28,12 @@ I'm passionate about building intelligent systems, exploring LLMs, AI Agents, an
 
 ## 🚀 Projects
 
+### 📚 Trial Reads
+**Streamlit app using LangChain and OpenAI to generate book chapter summaries**
 
-### 🤖 Agents Course Final Assignment
-**HuggingFace Agents Course — Final Assignment**
+Helps you decide whether to purchase a book by generating concise summaries of the first three chapters (~250 words each). Features include book recommendations for similar titles and a library manager chatbot to query your personal reading history using natural language.
 
-Completed the HuggingFace Agents Course, implementing AI agents using state-of-the-art frameworks and techniques.
-
-[View on GitHub](https://github.com/anagharamadas/Agents_Course_HF_Final_Assignment)
-
----
-
-### 💬 PDF Querying Bot
-**Intelligent chatbot to query PDF documents using LangChain and LLMs**
-
-Built natural language querying over custom PDF documents using LangChain.
-
-[View on GitHub](https://github.com/anagharamadas/PDF_querying_bot)
-
----
-
-
-
-### 🌿 Weed Classification using Deep Learning
-**Deep learning model for weed species classification**
-
-Applied CNN architectures to classify weed species from field images with high accuracy.
-
-[View on GitHub](https://github.com/anagharamadas/Weed-Classification-using-Deep-Learning)
+[View on GitHub](https://github.com/anagharamadas/trial-reads)
 
 ---
 
@@ -66,6 +45,28 @@ Used deep learning to predict missing fluorescence channels in microscopy images
 [View on GitHub](https://github.com/anagharamadas/Fluorescence_Image_Microscopy)
 
 ---
+
+
+### 🌿 Weed Classification using Deep Learning
+**Deep learning model for weed species classification**
+
+Applied CNN architectures to classify weed species from field images with high accuracy.
+
+[View on GitHub](https://github.com/anagharamadas/Weed-Classification-using-Deep-Learning)
+
+---
+
+
+### 💬 PDF Querying Bot
+**Intelligent chatbot to query PDF documents using LangChain and LLMs**
+
+Built natural language querying over custom PDF documents using LangChain.
+
+[View on GitHub](https://github.com/anagharamadas/PDF_querying_bot)
+
+---
+
+
 
 ### 🤖 Chatbot — LangChain & LLMs
 **Personal project to learn LangChain and LLMs**
@@ -85,14 +86,7 @@ Explored stateful, multi-actor agentic workflows using LangGraph.
 
 ---
 
-### 📚 Trial Reads
-**Streamlit app using LangChain and OpenAI to generate book chapter summaries**
 
-Helps you decide whether to purchase a book by generating concise summaries of the first three chapters (~250 words each). Features include book recommendations for similar titles and a library manager chatbot to query your personal reading history using natural language.
-
-[View on GitHub](https://github.com/anagharamadas/trial-reads)
-
----
 
 ## 🎓 Education
 

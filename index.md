@@ -28,14 +28,6 @@ I'm passionate about building intelligent systems, exploring LLMs, AI Agents, an
 
 ## 🚀 Projects
 
-### 🔍 Financial Compliance Project
-**Financial Document Analysis and Compliance Checker using LoRA and PEFT techniques**
-
-Fine-tuned large language models using LoRA and PEFT for financial document analysis and compliance checking.
-
-[View on GitHub](https://github.com/anagharamadas/Financial_Compliance_Project)
-
----
 
 ### 🤖 Agents Course Final Assignment
 **HuggingFace Agents Course — Final Assignment**
@@ -55,14 +47,7 @@ Built natural language querying over custom PDF documents using LangChain.
 
 ---
 
-### 🔗 ETL Pipeline using Apache Airflow
-**Automated ETL pipeline built with Apache Airflow**
 
-Designed and implemented a production-ready ETL pipeline for data ingestion, transformation, and loading.
-
-[View on GitHub](https://github.com/anagharamadas/ETLPipeline_using_apacheairflow)
-
----
 
 ### 🌿 Weed Classification using Deep Learning
 **Deep learning model for weed species classification**

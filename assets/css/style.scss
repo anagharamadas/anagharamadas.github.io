@@ -1,0 +1,129 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Outfit:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #F5EBE0;
+  --text: #3D2B26;
+  --muted: #6E5B52;
+  --accent: #D8E2DC;
+  --border: rgba(61, 43, 38, 0.14);
+}
+
+body {
+  background-color: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.page-header {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--bg) 100%) !important;
+}
+
+.page-header .project-name,
+.page-header .project-tagline {
+  color: var(--text) !important;
+  text-shadow: none !important;
+}
+
+.page-header .project-name {
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.main-content {
+  background-color: var(--bg);
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: var(--text);
+  font-family: 'Space Grotesk', sans-serif;
+  border-bottom: 1px solid var(--border);
+}
+
+.main-content a {
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+  font-weight: 600;
+}
+
+.main-content a:hover {
+  color: var(--muted);
+}
+
+.main-content table th,
+.main-content table td {
+  border-color: var(--border);
+}
+
+.main-content table th {
+  background-color: var(--accent);
+  color: var(--text);
+}
+
+.main-content table tr:nth-child(2n) {
+  background-color: rgba(216, 226, 220, 0.3);
+}
+
+.main-content hr {
+  border-top: 1px solid var(--border);
+}
+
+.site-footer {
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+}
+
+.site-footer a {
+  color: var(--text);
+}
+
+/* Project cards - matching anaghamulloth.com */
+.project-card {
+  background-color: var(--accent);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin: 24px 0;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.project-card a {
+  border-bottom: none;
+}
+
+.project-card a.gh-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 20px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background-color: var(--bg);
+  color: var(--text) !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-shots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.project-shots img {
+  flex: 1 1 30%;
+  min-width: 180px;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}

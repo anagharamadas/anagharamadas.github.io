@@ -19,6 +19,7 @@ I'm passionate about building intelligent systems, exploring LLMs, AI Agents, an
 |----------|-------------|
 | **AI / ML** | Python, TensorFlow, Keras, Scikit-learn, PyTorch |
 | **LLMs & Agents** | LangChain, LangGraph, LlamaIndex, Generative AI |
+| **Deep Learning** | GANs, Pix2Pix, CNNs, Image-to-Image Translation |
 | **Data** | Pandas, NumPy, Matplotlib |
 | **Backend** | FastAPI, Spring Boot, Java |
 | **Frontend** | Next.js, React, TypeScript, Tailwind CSS, HTML, CSS, JavaScript |
@@ -60,11 +61,22 @@ A ground-up rebuild of Trial Reads into a production-grade, full-stack AI applic
 
 ### 🔬 Fluorescence Image Microscopy
 
-**Predicting missing channels using fluorescence microscopy images**
+**Generative AI for medical imaging — Pix2Pix conditional GAN (TensorFlow/Keras)**
 
-Used deep learning to predict missing fluorescence channels in microscopy images.
+MSc dissertation project applying **generative AI to fluorescence microscopy** to tackle the scarcity of labelled medical imaging data. Using the **Berkeley Single-Cell Computational Microscopy (BSCCM)** dataset, a **Pix2Pix conditional GAN** (built in **TensorFlow/Keras**) performs image-to-image translation to synthesise realistic multi-channel fluorescence images — reducing the need for costly, confidentiality-restricted lab captures.
 
-[View on GitHub →](https://github.com/anagharamadas){: .gh-link}
+**Two input strategies were designed and compared**
+
+- **Brightfield → fluorescence** — predict all six fluorescence channels directly from a single brightfield image.
+- **Masked-channel reconstruction** — randomly mask five of the six channels, and train the model to reconstruct the full six-channel fluorescence image (a novel input formulation).
+
+**Engineering highlights**
+
+- **U-Net-style generator** and a **PatchGAN discriminator**, trained with a combined **adversarial (BCE) + L1** objective and the Adam optimizer.
+- **Quantitative evaluation** using **SSIM** and **PSNR** against ground-truth fluorescence, plus qualitative visual comparison.
+- Validated the reliability of a newly published white-blood-cell microscopy dataset for supervised learning, demonstrating that GAN-based augmentation can expand medical datasets without compromising patient confidentiality.
+
+[View on GitHub →](https://github.com/anagharamadas/Fluorescence_Image_Microscopy){: .gh-link}
 
 ### 🌿 Weed Classification using Deep Learning
 

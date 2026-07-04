@@ -19,7 +19,7 @@ I'm passionate about building intelligent systems, exploring LLMs, AI Agents, an
 |----------|-------------|
 | **AI / ML** | Python, TensorFlow, Keras, Scikit-learn, PyTorch |
 | **LLMs & Agents** | LangChain, LangGraph, LlamaIndex, Generative AI |
-| **Deep Learning** | GANs, Pix2Pix, CNNs, Image-to-Image Translation |
+| **Deep Learning** | GANs, Pix2Pix, CNNs, Vision Transformers, Transfer Learning, Image-to-Image Translation |
 | **Data** | Pandas, NumPy, Matplotlib |
 | **Backend** | FastAPI, Spring Boot, Java |
 | **Frontend** | Next.js, React, TypeScript, Tailwind CSS, HTML, CSS, JavaScript |
@@ -80,11 +80,25 @@ MSc dissertation project applying **generative AI to fluorescence microscopy** t
 
 ### 🌿 Weed Classification using Deep Learning
 
-**Deep learning model for weed species classification**
+**Vision Transformer vs CNN benchmark for precision agriculture (TensorFlow/Keras)**
 
-Applied CNN architectures to classify weed species from field images with high accuracy.
+A comparative deep-learning study on classifying weeds from crop imagery to enable targeted herbicide spraying — cutting chemical waste and environmental impact. Trained and evaluated on a dataset of **17,509 labelled images of Australian weed species** (DeepWeeds), distinguishing **grass vs broadleaf** weeds, the project benchmarks a **Vision Transformer (ViT)** against four state-of-the-art CNN backbones using **transfer learning** in **TensorFlow/Keras**.
 
-[View on GitHub →](https://github.com/anagharamadas){: .gh-link}
+**Models compared and results**
+
+- **Vision Transformer (ViT)** — best performer at **96.41%** accuracy.
+- **ResNet-50** — 95.70%.
+- **Xception** — 95.04%.
+- **Inception V3** — 94.70%.
+- **Inception-ResNet V2** — 94.15%.
+
+**Engineering highlights**
+
+- **Transfer learning** from ImageNet-pretrained backbones with fine-tuning and data augmentation, wrapped in a modular training/evaluation pipeline.
+- Explored **attention-based transformers as an alternative to CNNs**, showing ViT can outperform established convolutional architectures on this task.
+- Results and analysis documented in an accompanying technical report.
+
+[View on GitHub →](https://github.com/anagharamadas/Weed-Classification-using-Deep-Learning){: .gh-link}
 
 ### 💬 PDF Querying Bot
 

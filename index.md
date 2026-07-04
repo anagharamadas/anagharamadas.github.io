@@ -100,29 +100,13 @@ A comparative deep-learning study on classifying weeds from crop imagery to enab
 
 [View on GitHub →](https://github.com/anagharamadas/Weed-Classification-using-Deep-Learning){: .gh-link}
 
-### 💬 PDF Querying Bot
+---
 
-**Intelligent chatbot to query PDF documents using LangChain and LLMs**
+## ✍️ Writing
 
-Built natural language querying over custom PDF documents using LangChain.
+I write about AI, machine learning, and LLMs on Medium — sharing tutorials, project deep-dives, and notes on the tools and ideas I'm exploring.
 
-[View on GitHub →](https://github.com/anagharamadas){: .gh-link}
-
-### 🤖 Chatbot — LangChain & LLMs
-
-**Personal project to learn LangChain and LLMs**
-
-An AI-powered chatbot exploring prompt engineering, chains, and memory management.
-
-[View on GitHub →](https://github.com/anagharamadas){: .gh-link}
-
-### 📊 LangGraph Learning Projects
-
-**Experiments with LangGraph for agentic workflows**
-
-Explored stateful, multi-actor agentic workflows using LangGraph.
-
-[View on GitHub →](https://github.com/anagharamadas){: .gh-link}
+[Read my blog on Medium →](https://medium.com/@anagharamdas2000){: .gh-link}
 
 ---
 
@@ -143,3 +127,4 @@ Feel free to reach out for collaborations, opportunities, or just to chat about 
 🌐 [anaghamulloth.com](https://anaghamulloth.com)
 💼 [LinkedIn](https://linkedin.com/in/anagharamadas)
 🐙 [GitHub](https://github.com/anagharamadas)
+✍️ [Medium](https://medium.com/@anagharamdas2000)
